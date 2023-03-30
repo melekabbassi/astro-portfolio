@@ -1,97 +1,238 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
-  jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
-  `,
+  baseUrl: "",
+  name: "Melek Abbassi",
+  jobDescription: "Software Engineering Student",
+  about: `I am a highly motivated and driven 23-year-old student who is eager to take on new challenges that align with my career ambitions. 
+  With a strong work ethic and a passion for learning, 
+  I am committed to bringing my best to every project and working collaboratively within a team to achieve success. 
+  My portfolio showcases my ability to deliver quality work on time and with attention to detail. 
+  I am confident in my ability to adapt quickly to new situations and technologies. 
+  If you have any questions or would like to learn more about my qualifications, please don't hesitate to contact me. 
+  I look forward to the opportunity to contribute my skills and expertise to your team.`,
+
+  languages: [
+    {
+      name: "Arabic",
+      level: "Native",
+    },
+    {
+      name: "English",
+      level: "B2",
+    },
+    {
+      name: "French",
+      level: "B2",
+    },
+  ],
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
+      name: "Internship at B and Smile Tech",
+      location: "Berge du Lac, Tunisia",
+      startDate: "Jun 2022",
+      endDate: "Jul 2022",
       description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
+        "✓ Integration of web access to a desktop application",
       ],
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
+      name: "End of Studies Internship at Water Research And Technology Center",
+      location: "Borj Cedria, Tunisia",
+      startDate: "Jan 2021",
+      endDate: "May 2021",
       description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
+        "✓ Design and development of a Smart Irrigation System",
+        "✓ Design and development of a Dashboard for the Smart Irrigation System",
       ],
     },
 
     {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
+      name: "Internship at Société du Verre Plat (SOVEP)",
+      location: "Tunis, Tunisia",
+      startDate: "Jul 2020",
+      endDate: "Aug 2020",
       description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "Over the course of four weeks, I fully engaged in a program focused on learning and challenging myself to grow in my field. ",
+        "The curriculum, designed by an industry expert, allowed me to develop my skills in the areas that matter most, giving me the knowledge and experience necessary to excel."
       ],
     },
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
+      name: "Polytechnic International (Polytech INTL)",
+      location: "Tunis, Tunisia",
+      startDate: "2021",
+      endDate: "Present",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "Software Engineering Degree",
       ],
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
+      name: "Higher Institute of Information Technologies and Communication (ISTIC)",
+      location: "Borj Cedria, Tunisia",
       startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
+      endDate: "2021",
+      description: ["Applied Bachelor's degree in Systems and Automation"],
     },
     {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
+      name: "Beb El Khadhra High School",
+      location: "Tunis, Tunisia",
+      startDate: "2014",
       endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
+      description: ["Technical Baccalaureate"],
     },
   ],
 
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    facebook: "https://www.facebook.com/melekabbassi23",
+    twitter: "https://twitter.com/Octopus__23",
+    github: "https://github.com/melekabbassi",
+    email: "m.abbassi21153@pi.tn",
+    linkedin: "https://www.linkedin.com/in/melek-abbassi/",
   },
+
+  certifications: [
+    {
+      name: "IT Specialist - Java",
+      thumbnail: "/assets/images/ITS-Badges-Java.png",
+      issuedBy: "Certiprot",
+      issuedOn: "23 May 2022",
+      verifyBadgeUrl: "https://www.credly.com/badges/21e81721-bd1a-451b-b9de-7de381d06c7e",
+      description: "Earners of this badge demonstrate that they can recognize, write, and debug Java code that will logically solve a problem."
+    },
+    {
+      name: "IT Specialist - Python",
+      thumbnail: "/assets/images/ITS-Badges-Python.png",
+      issuedBy: "Certiprot",
+      issuedOn: "21 Sep 2022",
+      verifyBadgeUrl: "https://www.credly.com/badges/d1f33225-699c-4453-aef4-e66d51283bca",
+      description: "Earners of this badge demonstrate that they can recognize, write, and debug Python code that will logically solve a problem."
+    },
+    {
+      name: "IT Specialist - Software Development",
+      thumbnail: "/assets/images/ITS-Badges-Software-Development.png",
+      issuedOn: "13 Jan 2023",
+      issuedBy: "Certiprot",
+      verifyBadgeUrl: "https://www.credly.com/badges/1cb8094d-3182-4123-877e-2320fbabcbb6",
+      description: "Earners of this badge demonstrate core software development skills, including object-oriented programming,web applications, and databases. Candidates are expected to have some experience with C# and ANSI SQL."
+    },    
+  ],
+
+  skills: [
+    {
+      name: "C++"
+    },
+    {
+      name: "C"
+    },
+    {
+      name: "Java"
+    },
+    {
+      name: "Golang"
+    },
+    {
+      name: "HTML"
+    },
+    {
+      name: "CSS"
+    },
+    {
+      name: "JavaScript"
+    },
+    {
+      name: "React"
+    },
+    {
+      name: "SQL"
+    },
+    {
+      name: "MariaDB"
+    },
+    {
+      name: "MongoDB"
+    },
+    {
+      name: "Node.js"
+    },
+    {
+      name: "Express.js"
+    },
+    {
+      name: "Python"
+    },
+    {
+      name: "C#"
+    },
+    {
+      name: ".NET"
+    },
+    {
+      name: "Git"
+    },
+    {
+      name: "LaTeX"
+    },
+    {
+      name: "Linux"
+    },
+    {
+      name: "Visual Studio Code"
+    },
+    {
+      name: "Vim"
+    },
+    {
+      name: "Microsoft Visual Studio"
+    },
+    {
+      name: "IntelliJ IDEA"
+    },
+    {
+      name: "Android Studio"
+    }
+  ],
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "Apache Storm - DDOS Checker",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      thumbnail: "/assets/images/apache-storm-ddos-checker.png",
+      githubUrl: "https://github.com/melekabbassi/ddoschecker",
+    },
+    {
+      title: "Waste tracking application",
+      isFeatured: true,
+      thumbnail: "/assets/images/waste-tracking-application.png",
+      githubUrl: "https://github.com/melekabbassi/leaflet-test",
+      liveUrl: "https://leaflet-test-mu.vercel.app/"
+    },
+    {
+      title: "Waste tracking application authentication web service",
+      isFeatured: true,
+      thumbnail: "/assets/images/waste-tracking-application.png",
+      githubUrl: "https://github.com/melekabbassi/waste-tracker-authentication-web-service",
+    },
+    {
+      title: "School Management System - Desktop Application",
+      isFeatured: true,
+      thumbnail: "/assets/images/school-management-system.png",
+      githubUrl: "https://github.com/melekabbassi/ScholaritePI",
+    },
+    {
+      title: "Movie Application",
+      isFeatured: false,
+      thumbnail: "/assets/images/movie-application.png",
+      githubUrl: "https://github.com/melekabbassi/movie-app",
+      liveUrl: "https://movie-app-delta-gold.vercel.app/",
+    },
+    {
+      title: "Movie Application Backend",
+      isFeatured: false,
+      thumbnail: "/assets/images/movie-application.png",
+      githubUrl: "https://github.com/melekabbassi/movie-app-backend",
     },
   ],
 };
