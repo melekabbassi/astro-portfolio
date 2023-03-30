@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "",
+  baseUrl: "https://melekabbassi-portfolio.netlify.app/",
   name: "Melek Abbassi",
   jobDescription: "Software Engineering Student",
   about: `I am a highly motivated and driven 23-year-old student who is eager to take on new challenges that align with my career ambitions. 
