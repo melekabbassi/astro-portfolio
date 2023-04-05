@@ -32,3 +32,65 @@
     background-position: 0% 50%;
   }
 }
+
+/* circular gradient */
+/* .circular-gradient {
+  display: inline-block;
+  margin: 2rem 0;
+  font-style: normal;
+  font-weight: 600;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #9845e8 0%,
+    #33d2ff 50%,
+    #dd5789 100%
+  );
+  background-size: 150% 150%;
+  animation: circular-gradient 15s ease infinite;
+  line-height: 1.2;
+}
+
+@keyframes circular-gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  50% {
+    background-position: 100% 100%;
+  }
+
+  100% {
+    background-position: 0% 0%;
+  }
+} */
+
+/* circular gradient */
+.circular-gradient {
+  display: inline-block;
+  margin: 2rem 0;
+  font-style: normal;
+  font-weight: 600;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #9845e8 0%,
+    #33d2ff 50%,
+    #dd5789 100%
+  );
+  background-size: 150% 150%;
+  animation: circular-gradient 15s ease infinite;
+  line-height: 1.2;
+}
+
+@keyframes circular-gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  50% {
+    background-position: 100% 100%;
+  }
+
+  100% {
+    background-position: 0% 0%;
+  }
+}

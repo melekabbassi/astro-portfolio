@@ -5,14 +5,14 @@ const { name, about } = Astro.props as IHeroProps;
 ---
 
 <section>
-  <div class="w-[200px] h-[200px] rounded-full bg-gradient-to-br from-purple-500 via-blue to-pink-500 flex items-center justify-center">
+  <div class="w-[200px] h-[200px] rounded-full bg-gradient-to-br from-purple-500 via-blue to-pink-500 flex items-center justify-center bottom-8 relative pfp-bg">
     <img
       src="/assets/images/pfp.jpg"
       alt="profile picture"
-      class="w-[190px] h-[190px] rounded-full"
+      class="w-[190px] h-[190px] rounded-full m-auto top-0 left-0 right-0 bottom-0 absolute"
     />
   </div>  
-  <p class="dark:text-light mt-[80px]">Hey, I’m</p>
+  <p class="dark:text-light mt-[10px]">Hey, I’m</p>
   <h1>{name}</h1>
   <p class="dark:text-light text-lg mb-16">
     {about}
