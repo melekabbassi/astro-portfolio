@@ -21,7 +21,7 @@ export const info = {
     },
     {
       name: "French",
-      level: "B2",
+      level: "DELF B2",
     },
   ],
 
@@ -208,8 +208,14 @@ export const info = {
 
   projects: [
     {
+        title: "Hi Interns",
+        isFeatured: true,
+        thumbnail: "/assets/images/hi-interns.png",
+        liveUrl: "https://hi-interns.com/",
+    },
+    {
       title: "Apache Storm - DDOS Checker",
-      isFeatured: true,
+      isFeatured: false,
       thumbnail: "/assets/images/apache-storm-ddos-checker.png",
       githubUrl: "https://github.com/melekabbassi/ddoschecker",
     },
@@ -235,15 +241,28 @@ export const info = {
     {
       title: "Movie Application",
       isFeatured: false,
-      thumbnail: "/assets/images/movie-application.png",
+      thumbnail: "/assets/images/GitHub_Logo_White.png",
       githubUrl: "https://github.com/melekabbassi/movie-app",
       liveUrl: "https://movie-app-delta-gold.vercel.app/",
     },
     {
       title: "Movie Application Backend",
       isFeatured: false,
-      thumbnail: "/assets/images/movie-application.png",
+      thumbnail: "/assets/images/GitHub_Logo_White.png",
       githubUrl: "https://github.com/melekabbassi/movie-app-backend",
+    },
+    {
+      title: "Tennis Court Reservation",
+      isFeatured: true,
+      thumbnail: "/assets/images/GitHub_Logo_White.png",
+      githubUrl: "https://github.com/melekabbassi/tennis-reservation",
+    },
+    {
+      title: "Supabase Configuration and Authentication Guide with Astro - Contribution",
+      isFeatured: true,
+      thumbnail: "/assets/images/supabase-astro.png",
+      githubUrl: "https://github.com/withastro/docs/pull/4371",
+      liveUrl: "https://docs.astro.build/en/guides/backend/supabase/",
     },
   ],
 };
