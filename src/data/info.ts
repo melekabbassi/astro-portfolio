@@ -2,7 +2,7 @@ export const info = {
   baseUrl: "https://melekabbassi-portfolio.netlify.app/",
   name: "Melek Abbassi",
   jobDescription: "Software Engineering Student",
-  about: `I am a highly motivated and driven 23-year-old student who is eager to take on new challenges that align with my career ambitions. 
+  about: `I am a highly motivated and driven 24-year-old student who is eager to take on new challenges that align with my career ambitions. 
   With a strong work ethic and a passion for learning, 
   I am committed to bringing my best to every project and working collaboratively within a team to achieve success. 
   My portfolio showcases my ability to deliver quality work on time and with attention to detail. 
@@ -117,7 +117,15 @@ export const info = {
       issuedBy: "Certiprot",
       verifyBadgeUrl: "https://www.credly.com/badges/1cb8094d-3182-4123-877e-2320fbabcbb6",
       description: "Earners of this badge demonstrate core software development skills, including object-oriented programming,web applications, and databases. Candidates are expected to have some experience with C# and ANSI SQL."
-    },    
+    },
+    {
+      name: "AWS Certified Cloud Practitioner",
+      thumbnail: "/assets/images/aws-certified-cloud-practitioner.png",
+      issuedOn: "06 Jul 2023",
+      issuedBy: "Amazon Web Services Training and Certification",
+      verifyBadgeUrl: "https://www.credly.com/badges/20a72136-2a4e-4190-8df0-825a3c353462",
+      description: "Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects."
+    },
   ],
 
   skills: [
@@ -162,6 +170,9 @@ export const info = {
     },
     {
       name: "Python"
+    },
+    {
+      name: "Flutter"
     },
     {
       name: "C#"
